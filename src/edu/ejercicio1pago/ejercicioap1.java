@@ -10,10 +10,10 @@ class ejercicioap1 {
 		System.out.println("Escribe el primer pago");
 		long i = scan.nextLong();
 		long aux = 1;
-		for (int fila = 20; fila<= 1; fila++) 
+		for (int fila = 20; fila<= 20; fila++) 
 		{
 			 aux= 1 ;
-			for (int columnas = 1; columnas<=fila;columnas++)
+			for (int columnas = 20; columnas<=fila;columnas++)
 			{
 			    aux = aux*i*2 ;
 			}
