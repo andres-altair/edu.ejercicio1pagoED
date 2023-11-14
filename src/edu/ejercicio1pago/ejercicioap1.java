@@ -8,14 +8,14 @@ class ejercicioap1 {
 	{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Escribe el primer pago");
-		int i = scan.nextInt();
-		String aux;
-		for (int fila = i; fila<= 1; fila++) 
+		long i = scan.nextLong();
+		long aux = 1;
+		for (int fila = 20; fila<= 1; fila++) 
 		{
-			aux ="";
-			for (int columnas = i; columnas<=fila;columnas++)
+			 aux= 1 ;
+			for (int columnas = 1; columnas<=fila;columnas++)
 			{
-			    aux = aux + " " + columnas;
+			    aux = aux*i*2 ;
 			}
 			System.out.println(aux);
 			
