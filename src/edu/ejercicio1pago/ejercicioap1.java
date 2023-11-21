@@ -8,12 +8,15 @@ class ejercicioap1 {
 	{
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Escribe el primer pago");
-		long i = scan.nextLong();
+		int i = scan.nextInt();
+		System.out.println("Escribe la mensualidad");
+		int mensualidad= scan.nextInt();
 		long aux = 10;
-		for (int a =2  ; a<= 20; a++) 
+		for (int a =1  ; a<=mensualidad; a++) 
 		{
-			 aux = a* aux *2;
-			
+			int mes = 2*mensualidad*i;
+			aux = a*mes;
+
 			System.out.println(aux);
 			
 		}
